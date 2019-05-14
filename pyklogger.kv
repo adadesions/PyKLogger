@@ -1,0 +1,40 @@
+#:kivy 1.10.1
+<PyKLogger>:
+    Label:
+        id: logo
+        text: "PyKLogger"
+        top: root.top+10
+        center_x: root.width/2
+        font_size: "48px"
+
+    Label:
+        id: status_lable
+        text: "Status:"
+        top: root.top-35
+        center_x: root.width/4
+        font_size: "18px"
+        color: 1, 0, 0, 1 # RED
+        bold: True
+
+    Label:
+        id: status
+        text: "Ready to Start"
+        top: root.top-35
+        center_x: root.width/2 + 20
+        font_size: "18px"
+        color: 1, 1, 0, 1 # Yellow
+
+    BoxLayout:
+        size_hint_y: None
+        height: "48dp"
+        width: root.width
+        spacing: "10dp"
+        padding: "4dp"
+
+        Button: 
+            text: "Start"
+            on_release: root.on_start()
+
+        Button:
+            text: "Stop"
+            on_release: root.on_stop()
