@@ -7,7 +7,7 @@
 <br />
 <p align="center">
   <a href="https://github.com/adadesions/PyKLogger">
-    <img src="keyboard.png" alt="Logo" width="80" height="80">
+    <img src="fibre_logo.png" alt="Logo" width="80" height="80">
   </a>
 
   <h3 align="center">PyKLogger</h3>
@@ -63,20 +63,8 @@ CLI
 
 1. Clone the repo
 ```sh
-git clone https://github.com/adadesions/PyKLogger.git
+git clone https://github.com/mcspx/aisfibreinvc.git
 ```
-2. Install packages
-```sh
-pip install -r requirement.txt
-```
-Do not forget to change dirtectory to the repo location first.
-
-3. Run Program by CLI
-```sh
-python pykloggger.py
-```
-4. Key log will save in log folder in the repo directory
-
 
 <!-- USAGE EXAMPLES -->
 ## Usage
