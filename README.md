@@ -51,7 +51,6 @@ PyKLogger written in Python and using Kivy as GUI framework
 PyKLogger is provide both CLI and GUI for user.
 
 ### Prerequisites
-CLI 
 * Python 3.5+
 * Pip 19.1.1+
 * Kivy 1.10.1+
@@ -77,7 +76,7 @@ pip install -r requirements.txt
 python3 GUI_main.py
 
 # CLI
-python3 main.py
+python3 pyklogger.py
 ```
 
 
