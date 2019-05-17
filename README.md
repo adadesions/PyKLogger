@@ -7,7 +7,7 @@
 <br />
 <p align="center">
   <a href="https://github.com/adadesions/PyKLogger">
-    <img src="fibre_logo.png" alt="Logo" width="80" height="80">
+    <img src="keyboard.png" alt="Logo" width="80" height="80">
   </a>
 
   <h3 align="center">PyKLogger</h3>
@@ -59,20 +59,26 @@ CLI
 * pynput 1.4.2
 
 
-### Installation
+### Installation and Usage
 
 1. Clone the repo
 ```sh
-git clone https://github.com/mcspx/aisfibreinvc.git
+git clone https://github.com/adadesions/PyKLogger.git
+```
+2. Install dependency
+```sh
+cd PyKLogger
+pip install -r requirements.txt
 ```
 
-<!-- USAGE EXAMPLES -->
-## Usage
+3. Running
+```python
+# GUI
+python3 GUI_main.py
 
-Use this space to show useful examples of how a project can be used. Additional screenshots, code examples and demos work well in this space. You may also link to more resources.
-
-_For more examples, please refer to the [Documentation](https://example.com)_
-
+# CLI
+python3 main.py
+```
 
 
 <!-- CONTRIBUTING -->
@@ -81,9 +87,9 @@ _For more examples, please refer to the [Documentation](https://example.com)_
 Contributions are what make the open source community such an amazing place to be learn, inspire, and create. Any contributions you make are **greatly appreciated**.
 
 1. Fork the Project
-2. Create your Feature Branch (`git checkout -b feature/AmazingFeature`)
+2. Create your Feature Branch (`git checkout -b feature-AmazingFeature`)
 3. Commit your Changes (`git commit -m 'Add some AmazingFeature`)
-4. Push to the Branch (`git push origin feature/AmazingFeature`)
+4. Push to the Branch (`git push origin feature-AmazingFeature`)
 5. Open a Pull Request
 
 
